@@ -1,0 +1,55 @@
+{
+	"__default__" :
+	{
+		"n": 4,
+		"t": "36:00:00"
+	},
+
+	"trim_adapters_paired_bbduk":
+	{
+		"n": 2,
+		"t": "24:00:00"
+	},
+
+	"prepare_reference":
+	{
+		"n": 2,
+		"t": "96:00:00"
+	},
+
+	"map_and_process_trimmed_reads":
+	{
+		"n": 4,
+		"t": "36:00:00"
+	},
+
+	"merge_bams":
+	{
+		"n": 2,
+		"t": "36:00:00"
+	},
+
+	"picard_mkdups":
+	{
+		"n": 4,
+		"t": "96:00:00"
+	},
+
+	"gatk_haplotype_caller":
+	{
+		"n": 8,
+		"t": "96:00:00"
+	},
+
+	"bcftools_merge_vcfs":
+	{
+		"n": 4,
+		"t": "96:00:00"
+	},
+
+	"compare_vcfs":
+	{
+		"n": 8,
+		"t": "96:00:00"
+	}
+}

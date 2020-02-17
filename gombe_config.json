@@ -1,0 +1,573 @@
+{
+	"genome_paths": {
+		"pantro4": "reference/panTro4.fa"
+	},
+
+	"downsample_fraction": {
+		"s7150_feces_exome": 7435,
+		"s7507_feces_exome": 5180,
+		"s7365_feces_exome": 4456,
+		"s7069_feces_exome": 5833,
+		"s7150_urine_exome": 9246,
+		"s7072_urine_exome": 7957,
+		"s7535_urine_exome": 8046,
+		"s7650_urine_exome": 7036,
+		"s7507_urine_exome": 9687,
+		"s7323_urine_exome": 8767,
+		"s7433_calculus_exome": 9772,
+		"s7433_calculus_human_baits": 5303,
+		"s7433_calculus_shotgun": 9160,
+		"s7150_feces_human_baits": 7232,
+		"s7507_feces_human_baits": 3715,
+		"s7365_feces_human_baits": 5649,
+		"s7365_feces_pts_baits": 2360,
+		"s7069_feces_human_baits": 5649,
+		"s7057_dentine_exome": 3219,
+		"s7057_calculus_exome": 6564,
+		"s7057_calculus_human_baits": 7460
+	},
+
+	"to_downsample": [
+		"s7150_feces_exome",
+		"s7507_feces_exome",
+		"s7365_feces_exome",
+		"s7069_feces_exome",
+		"s7150_urine_exome",
+		"s7072_urine_exome",
+		"s7535_urine_exome",
+		"s7650_urine_exome",
+		"s7507_urine_exome",
+		"s7323_urine_exome",
+		"s7433_calculus_exome",
+		"s7433_calculus_human_baits",
+		"s7433_calculus_shotgun",
+		"s7150_feces_human_baits",
+		"s7507_feces_human_baits",
+		"s7365_feces_human_baits",
+		"s7365_feces_pts_baits",
+		"s7069_feces_human_baits",
+		"s7057_dentine_exome",
+		"s7057_calculus_exome",
+		"s7057_calculus_human_baits"
+	],
+
+	"final_id_list": [
+		"s7150_feces_exome",
+		"s7507_feces_exome",
+		"s7365_feces_exome",
+		"s7069_feces_exome",
+		"s7365_urine_exome",
+		"s7150_urine_exome",
+		"s7072_urine_exome",
+		"s7535_urine_exome",
+		"s7650_urine_exome",
+		"s7507_urine_exome",
+		"s7323_urine_exome",
+		"s7433_calculus_exome",
+		"s7433_calculus_human_baits",
+		"s7433_calculus_shotgun",
+		"s7150_feces_human_baits",
+		"s7150_feces_pts_baits",
+		"s7507_feces_human_baits",
+		"s7507_feces_pts_baits",
+		"s7365_feces_human_baits",
+		"s7365_feces_pts_baits",
+		"s7069_feces_human_baits",
+		"s7069_feces_pts_baits",
+		"s7057_dentine_exome",
+		"s7057_calculus_exome",
+		"s7057_calculus_human_baits",
+		"s7057_calculus_shotgun"
+	],
+
+	"individuals": {
+		"s7069": [
+				"s7069_feces_exome", "s7069_feces_human_baits",
+				"s7069_feces_pts_baits"],
+		"s7057": [
+				"s7057_dentine_exome", "s7057_calculus_exome",
+				"s7057_calculus_human_baits", "s7057_calculus_shotgun"],
+		"s7365": [
+				"s7365_feces_exome", "s7365_urine_exome",
+				"s7365_feces_human_baits", "s7365_feces_pts_baits"],
+		"s7150": [
+				"s7150_feces_exome", "s7150_urine_exome",
+				"s7150_feces_human_baits", "s7150_feces_pts_baits"],
+		"s7072": [
+				"s7072_urine_exome"],
+		"s7535": [
+				"s7535_urine_exome"],
+		"s7433": [
+				"s7433_calculus_exome", "s7433_calculus_human_baits",
+				"s7433_calculus_shotgun"],
+		"s7650": [
+				"s7650_urine_exome"],
+		"s7507": [
+				"s7507_feces_exome", "s7507_urine_exome",
+				"s7507_feces_human_baits", "s7507_feces_pts_baits"],
+		"s7323": [
+				"s7323_urine_exome"]
+	},
+
+	"file_ids": [
+		"2616-exome",
+		"3042-exome",
+		"3550-exome",
+		"3579-exome",
+		"2616_exome2",
+		"3042_exome2",
+		"3550_exome2",
+		"3579_exome2",
+		"2616_exome2_run2",
+		"3042_exome2_run2",
+		"3550_exome2_run2",
+		"3579_exome2_run2",
+		"s7365_urine",
+		"s7150_urine",
+		"s7072_urine",
+		"s7535_urine",
+		"s7650_urine",
+		"s7507_urine",
+		"s7323_urine",
+		"13C_exome2",
+		"13C_exome2_run2",
+		"13C-exome",
+		"13C-H",
+		"13C_shotgun",
+		"2616-H",
+		"2616-PTS",
+		"3042-H",
+		"3042-PTS",
+		"3550-H",
+		"3550-PTS",
+		"3579-H",
+		"3579-PTS",
+		"5agb_exome2",
+		"5agb_exome2_run2",
+		"5agb-exome",
+		"5C_exome2",
+		"5C-exome",
+		"5C-H",
+		"5C_shotgun"
+
+	],
+
+	"to_merge": {
+		"s7150_feces_exome": ["2616-exome", "2616_exome2", "2616_exome2_run2"],
+		"s7507_feces_exome": ["3042-exome", "3042_exome2", "3042_exome2_run2"],
+		"s7365_feces_exome": ["3550-exome", "3550_exome2", "3550_exome2_run2"],
+		"s7069_feces_exome": ["3579-exome", "3579_exome2", "3579_exome2_run2"],
+		"s7365_urine_exome": ["s7365_urine"],
+		"s7150_urine_exome": ["s7150_urine"],
+		"s7072_urine_exome": ["s7072_urine"],
+		"s7535_urine_exome": ["s7535_urine"],
+		"s7650_urine_exome": ["s7650_urine"],
+		"s7507_urine_exome": ["s7507_urine"],
+		"s7323_urine_exome": ["s7323_urine"],
+		"s7433_calculus_exome": ["13C_exome2", "13C_exome2_run2", "13C-exome"],
+		"s7433_calculus_human_baits": ["13C-H"],
+		"s7433_calculus_shotgun": ["13C_shotgun"],
+		"s7150_feces_human_baits": ["2616-H"],
+		"s7150_feces_pts_baits": ["2616-PTS"],
+		"s7507_feces_human_baits": ["3042-H"],
+		"s7507_feces_pts_baits": ["3042-PTS"],
+		"s7365_feces_human_baits": ["3550-H"],
+		"s7365_feces_pts_baits": ["3550-PTS"],
+		"s7069_feces_human_baits": ["3579-H"],
+		"s7069_feces_pts_baits": ["3579-PTS"],
+		"s7057_dentine_exome": ["5agb_exome2", "5agb_exome2_run2", "5agb-exome"],
+		"s7057_calculus_exome": ["5C_exome2", "5C-exome"],
+		"s7057_calculus_human_baits": ["5C-H"],
+		"s7057_calculus_shotgun": ["5C_shotgun"]
+	},
+
+	"2616-exome":{
+		"fq1": "2616-exome_CGCATAG-TTCGAGC_L001_R1.fastq.gz",
+		"fq2": "2616-exome_CGCATAG-TTCGAGC_L001_R2.fastq.gz",
+		"ID": "2616-exome",
+		"SM": "s7150_feces_exome",
+		"LB": "s7150_feces_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"3042-exome":{
+		"fq1": "3042-exome_CAGGAAG-CAGGTCG_L001_R1.fastq.gz",
+		"fq2": "3042-exome_CAGGAAG-CAGGTCG_L001_R2.fastq.gz",
+		"ID": "3042-exome",
+		"SM": "s7507_feces_exome",
+		"LB": "s7507_feces_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"3550-exome":{
+		"fq1": "3550-exome_TGGACGT-GTACCGG_L001_R1.fastq.gz",
+		"fq2": "3550-exome_TGGACGT-GTACCGG_L001_R2.fastq.gz",
+		"ID": "3550-exome",
+		"SM": "s7365_feces_exome",
+		"LB": "s7365_feces_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"3579-exome":{
+		"fq1": "3579-exome_AACCATG-CGGAGTT_L001_R1.fastq.gz",
+		"fq2": "3579-exome_AACCATG-CGGAGTT_L001_R2.fastq.gz",
+		"ID": "3579-exome",
+		"SM": "s7069_feces_exome",
+		"LB": "s7069_feces_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"2616_exome2":{
+		"fq1": "2616_exome2_R1.fastq.gz",
+		"fq2": "2616_exome2_R2.fastq.gz",
+		"ID": "2616_exome2",
+		"SM": "s7150_feces_exome",
+		"LB": "s7150_feces_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"3042_exome2":{
+		"fq1": "3042_exome2_R1.fastq.gz",
+		"fq2": "3042_exome2_R2.fastq.gz",
+		"ID": "3042_exome2",
+		"SM": "s7507_feces_exome",
+		"LB": "s7507_feces_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"3550_exome2":{
+		"fq1": "3550_exome2_R1.fastq.gz",
+		"fq2": "3550_exome2_R2.fastq.gz",
+		"ID": "3550_exome2",
+		"SM": "s7365_feces_exome",
+		"LB": "s7365_feces_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"3579_exome2":{
+		"fq1": "3579_exome2_R1.fastq.gz",
+		"fq2": "3579_exome2_R2.fastq.gz",
+		"ID": "3579_exome2",
+		"SM": "s7069_feces_exome",
+		"LB": "s7069_feces_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"2616_exome2_run2":{
+		"fq1": "2616_exome2_run2_R1.fastq.gz",
+		"fq2": "2616_exome2_run2_R2.fastq.gz",
+		"ID": "2616_exome2_run2",
+		"SM": "s7150_feces_exome",
+		"LB": "s7150_feces_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"3042_exome2_run2":{
+		"fq1": "3042_exome2_run2_R1.fastq.gz",
+		"fq2": "3042_exome2_run2_R2.fastq.gz",
+		"ID": "3042_exome2_run2",
+		"SM": "s7507_feces_exome",
+		"LB": "s7507_feces_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"3550_exome2_run2":{
+		"fq1": "3550_exome2_run2_R1.fastq.gz",
+		"fq2": "3550_exome2_run2_R2.fastq.gz",
+		"ID": "3550_exome2_run2",
+		"SM": "s7365_feces_exome",
+		"LB": "s7365_feces_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"3579_exome2_run2":{
+		"fq1": "3579_exome2_run2_R1.fastq.gz",
+		"fq2": "3579_exome2_run2_R2.fastq.gz",
+		"ID": "3579_exome2_run2",
+		"SM": "s7069_feces_exome",
+		"LB": "s7069_feces_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"s7365_urine":{
+		"fq1": "s7365_urine_R1.fastq.gz",
+		"fq2": "s7365_urine_R2.fastq.gz",
+		"ID": "s7365_urine",
+		"SM": "s7365_urine_exome",
+		"LB": "s7365_urine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"s7150_urine":{
+		"fq1": "s7150_urine_R1.fastq.gz",
+		"fq2": "s7150_urine_R2.fastq.gz",
+		"ID": "s7150_urine",
+		"SM": "s7150_urine_exome",
+		"LB": "s7150_urine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"s7072_urine":{
+		"fq1": "s7072_urine_R1.fastq.gz",
+		"fq2": "s7072_urine_R2.fastq.gz",
+		"ID": "s7072_urine",
+		"SM": "s7072_urine_exome",
+		"LB": "s7072_urine_exome",
+		"PU": "H5YYWBCX2:.",
+		"PL": "Illumina"
+	},
+
+	"s7535_urine":{
+		"fq1": "s7535_urine_R1.fastq.gz",
+		"fq2": "s7535_urine_R2.fastq.gz",
+		"ID": "s7535_urine",
+		"SM": "s7535_urine_exome",
+		"LB": "s7535_urine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"s7650_urine":{
+		"fq1": "s7650_urine_R1.fastq.gz",
+		"fq2": "s7650_urine_R2.fastq.gz",
+		"ID": "s7650_urine",
+		"SM": "s7650_urine_exome",
+		"LB": "s7650_urine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"s7507_urine":{
+		"fq1": "s7507_urine_R1.fastq.gz",
+		"fq2": "s7507_urine_R2.fastq.gz",
+		"ID": "s7507_urine",
+		"SM": "s7507_urine_exome",
+		"LB": "s7507_urine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"s7323_urine":{
+		"fq1": "s7323_urine_R1.fastq.gz",
+		"fq2": "s7323_urine_R2.fastq.gz",
+		"ID": "s7323_urine",
+		"SM": "s7323_urine_exome",
+		"LB": "s7323_urine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"13C_exome2":{
+		"fq1": "13C_exome2_R1.fastq.gz",
+		"fq2": "13C_exome2_R2.fastq.gz",
+		"ID": "13C_exome2",
+		"SM": "s7433_calculus_exome",
+		"LB": "s7433_calculus_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"13C_exome2_run2":{
+		"fq1": "13C_exome2_run2.R1.fastq.gz",
+		"fq2": "13C_exome2_run2.R2.fastq.gz",
+		"ID": "13C_exome2_run2",
+		"SM": "s7433_calculus_exome",
+		"LB": "s7433_calculus_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"13C-exome":{
+		"fq1": "13C-exome_GCAGTAT-TTGATCC_L001_R1.fastq.gz",
+		"fq2": "13C-exome_GCAGTAT-TTGATCC_L001_R2.fastq.gz",
+		"ID": "13C-exome",
+		"SM": "s7433_calculus_exome",
+		"LB": "s7433_calculus_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"13C-H":{
+		"fq1": "13C-H_all_L002_R1.fastq.gz",
+		"fq2": "13C-H_all_L002_R2.fastq.gz",
+		"ID": "13C-H",
+		"SM": "s7433_calculus_human_baits",
+		"LB": "s7433_calculus_human_baits",
+		"PU": "HK3FVBCXX.2",
+		"PL": "Illumina"
+	},
+
+	"13C_shotgun":{
+		"fq1": "13C_shotgun_R1.fastq.gz",
+		"fq2": "13C_shotgun_R2.fastq.gz",
+		"ID": "13C_shotgun",
+		"SM": "s7433_calculus_shotgun",
+		"LB": "s7433_calculus_shotgun",
+		"PU": "HJJNFBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"2616-H":{
+		"fq1": "2616-H_all_L001_R1.fastq.gz",
+		"fq2": "2616-H_all_L001_R2.fastq.gz",
+		"ID": "2616-H",
+		"SM": "s7150_feces_human_baits",
+		"LB": "s7150_feces_human_baits",
+		"PU": "HK3FVBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"2616-PTS":{
+		"fq1": "2616-PTS_all_L002_R1.fastq.gz",
+		"fq2": "2616-PTS_all_L002_R2.fastq.gz",
+		"ID": "2616-PTS",
+		"SM": "s7150_feces_pts_baits",
+		"LB": "s7150_feces_pts_baits",
+		"PU": "HK3FVBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"3042-H":{
+		"fq1": "3042-H_all_L001_R1.fastq.gz",
+		"fq2": "3042-H_all_L001_R2.fastq.gz",
+		"ID": "3042-H",
+		"SM": "s7507_feces_human_baits",
+		"LB": "s7507_feces_human_baits",
+		"PU": "HK3FVBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"3042-PTS":{
+		"fq1": "3042-PTS_all_L002_R1.fastq.gz",
+		"fq2": "3042-PTS_all_L002_R2.fastq.gz",
+		"ID": "3042-PTS",
+		"SM": "s7507_feces_pts_baits",
+		"LB": "s7507_feces_pts_baits",
+		"PU": "HK3FVBCXX.2",
+		"PL": "Illumina"
+	},
+
+	"3550-H":{
+		"fq1": "3550-H_all_L002_R1.fastq.gz",
+		"fq2": "3550-H_all_L002_R2.fastq.gz",
+		"ID": "3550-H",
+		"SM": "s7365_feces_human_baits",
+		"LB": "s7365_feces_human_baits",
+		"PU": "HK3FVBCXX.2",
+		"PL": "Illumina"
+	},
+
+	"3550-PTS":{
+		"fq1": "3550-PTS_R1.fastq.gz",
+		"fq2": "3550-PTS_R2.fastq.gz",
+		"ID": "3550-PTS",
+		"SM": "s7365_feces_pts_baits",
+		"LB": "s7365_feces_pts_baits",
+		"PU": "HJJNFBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"3579-H":{
+		"fq1": "3579-H_all_L002_R1.fastq.gz",
+		"fq2": "3579-H_all_L002_R2.fastq.gz",
+		"ID": "3579-H",
+		"SM": "s7069_feces_human_baits",
+		"LB": "s7069_feces_human_baits",
+		"PU": "HK3FVBCXX.2",
+		"PL": "Illumina"
+	},
+
+	"3579-PTS":{
+		"fq1": "3579-PTS_all_L001_R1.fastq.gz",
+		"fq2": "3579-PTS_all_L001_R2.fastq.gz",
+		"ID": "3579-PTS",
+		"SM": "s7069_feces_pts_baits",
+		"LB": "s7069_feces_pts_baits",
+		"PU": "HK3FVBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"5agb_exome2":{
+		"fq1": "5agb_exome2_R1.fastq.gz",
+		"fq2": "5agb_exome2_R2.fastq.gz",
+		"ID": "5agb_exome2",
+		"SM": "s7057_dentine_exome",
+		"LB": "s7057_dentine_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"5agb_exome2_run2":{
+		"fq1": "5agb_exome2_run2.R1.fastq.gz",
+		"fq2": "5agb_exome2_run2.R2.fastq.gz",
+		"ID": "5agb_exome2_run2",
+		"SM": "s7057_dentine_exome",
+		"LB": "s7057_dentine_exome",
+		"PU": "H5YYWBCX2.2",
+		"PL": "Illumina"
+	},
+
+	"5agb-exome":{
+		"fq1": "Agb-5-exome_TAACTCG-TTCGAGC_L001_R1.fastq.gz",
+		"fq2": "Agb-5-exome_TAACTCG-TTCGAGC_L001_R2.fastq.gz",
+		"ID": "5agb-exome",
+		"SM": "s7057_dentine_exome",
+		"LB": "s7057_dentine_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"5C_exome2":{
+		"fq1": "5C_exome2_R1.fastq.gz",
+		"fq2": "5C_exome2_R2.fastq.gz",
+		"ID": "5C_exome2",
+		"SM": "s7057_calculus_exome",
+		"LB": "s7057_calculus_exome",
+		"PU": "HKKWTBCXY.1",
+		"PL": "Illumina"
+	},
+
+	"5C-exome":{
+		"fq1": "5C-exome_AAGACGC-ATCTTGC_L001_R1.fastq.gz",
+		"fq2": "5C-exome_AAGACGC-ATCTTGC_L001_R2.fastq.gz",
+		"ID": "5C-exome",
+		"SM": "s7057_calculus_exome",
+		"LB": "s7057_calculus_exome",
+		"PU": "HWHH2BCXX.1",
+		"PL": "Illumina"
+	},
+
+	"5C-H":{
+		"fq1": "5C-H_all_L001_R1.fastq.gz",
+		"fq2": "5C-H_all_L001_R2.fastq.gz",
+		"ID": "5C-H",
+		"SM": "s7057_calculus_human_baits",
+		"LB": "s7057_calculus_human_baits",
+		"PU": "HK3FVBCXX.1",
+		"PL": "Illumina"
+	},
+
+	"5C_shotgun":{
+		"fq1": "5C_shotgun_R1.fastq.gz",
+		"fq2": "5C_shotgun_R2.fastq.gz",
+		"ID": "5C_shotgun",
+		"SM": "s7057_calculus_shotgun",
+		"LB": "s7057_calculus_shotgun",
+		"PU": "HKKWTBCXY.2",
+		"PL": "Illumina"
+	}
+}
