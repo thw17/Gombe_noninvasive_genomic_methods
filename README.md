@@ -3,7 +3,7 @@ This repository contains the code used in Ozga, Webster, et al.
 to investigate the promise of various sources of noninvasively
 collected DNA in primate genomics.
 
-For questions, contact: Tim Webster, Arizona State University
+For questions, contact: Tim Webster, University of Utah
 
 # Citation
 If you use any code in this repository, please cite our preprint:
@@ -57,7 +57,3 @@ For the capture methods:
 | 7323 | Exome | Y | N | N | N |
 
 
-## Setup
-
-
-## Running the pipeline
